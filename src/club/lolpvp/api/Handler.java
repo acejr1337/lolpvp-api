@@ -28,7 +28,7 @@ public class Handler extends JavaPlugin
 	 * THE SOFTWARE.
 	 */
 	
-	public Handler thisClass;
+	public static Handler thisClass;
 	
 	@Override
 	public void onEnable()
@@ -42,5 +42,8 @@ public class Handler extends JavaPlugin
 	{
 		this.thisClass = null;
 	}
-	
+	public static Handler getHandler()
+	{
+		return thisClass;
+	}
 }

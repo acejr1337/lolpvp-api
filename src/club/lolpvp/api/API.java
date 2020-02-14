@@ -44,37 +44,37 @@ public class API {
 		this.handler = handler;
 	}
 	
-	private String getRankName(UUID uuid)
+	public String getRankName(UUID uuid)
 	{
         throw new UnsupportedOperationException("Unknown API Version");
 	}
 	
-	private String getRankColour(UUID uuid, String rank)
+	public String getRankColour(UUID uuid, String rank)
 	{
 		throw new UnsupportedOperationException("Unknown API Version");
 	}
 	
-	private String getRankPrefix(UUID uuid, String rank)
+	public String getRankPrefix(UUID uuid, String rank)
 	{
 		throw new UnsupportedOperationException("Unknown API Version");
 	}
 	
-	private String getRankSuffix(UUID uuid, String rank)
+	public String getRankSuffix(UUID uuid, String rank)
 	{
 		throw new UnsupportedOperationException("Unknown API Version");
 	}
 	
-	private String getPriority(String rank)
+	public String getPriority(String rank)
 	{
 		throw new UnsupportedOperationException("Unknown API Version");
 	}
 	
-	private Team getPlayerTeam(UUID uuid)
+	public Team getPlayerTeam(UUID uuid)
 	{
         throw new UnsupportedOperationException("Unknown API Version");
 	}
 	
-	private Warps getPlayerWarps(UUID uuid)
+	public Warps getPlayerWarps(UUID uuid)
 	{
         throw new UnsupportedOperationException("Unknown API Version");
 	}
