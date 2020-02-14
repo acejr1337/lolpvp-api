@@ -1,0 +1,5 @@
+name: API
+version: BETA
+author: [Ace (EliteSwords/Eduction)]
+main: club.lolpvp.api.Handler
+depend: [Main]
